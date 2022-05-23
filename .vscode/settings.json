@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "git.enabled": false,
+    "files.exclude": {
+        ".vscode": true,
+        ".gitignore": true,
+        "README.md": true,
+        "tsconfig.json": true,
+        "yarn.lock": true,
+        ".env": true,
+        "dist/": true
+        //".editorconfig": true,
+        //".prettierrc": true,
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+      "markdown"
+    ]
+  }
