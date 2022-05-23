@@ -16,7 +16,8 @@
         "coverage": true,
         "jest.config.js": true,
         ".husky": true,
-        "commitlint.config.js": true
+        "commitlint.config.js": true,
+        "tsconfig.prod.json": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
