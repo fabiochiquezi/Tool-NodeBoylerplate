@@ -13,8 +13,8 @@
         ".prettierrc": true,
         ".eslintignore": true,
         ".eslintrc.json": true,
-        //".editorconfig": true,
-        //".prettierrc": true,
+        "coverage": true,
+        "jest.config.js": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
