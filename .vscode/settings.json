@@ -14,7 +14,9 @@
         ".eslintignore": true,
         ".eslintrc.json": true,
         "coverage": true,
-        "jest.config.js": true
+        "jest.config.js": true,
+        ".husky": true,
+        "commitlint.config.js": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
