@@ -9,7 +9,10 @@
         "yarn.lock": true,
         ".env": true,
         "dist/": true,
-        ".editorconfig": true
+        ".editorconfig": true,
+        ".prettierrc": true,
+        ".eslintignore": true,
+        ".eslintrc.json": true,
         //".editorconfig": true,
         //".prettierrc": true,
     },
