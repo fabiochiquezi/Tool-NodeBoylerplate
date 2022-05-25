@@ -1,0 +1,23 @@
+version: '3'
+services:
+    api:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        container_name: node-boilerplate
+        volumes:
+            - ./:/user/src/app
+        ports:
+            - '5000:5000'
+        environment:
+            - PORT=5000
+#        networks:
+#            - tool-node-boilerplate
+#depends_on:
+#    - mongo
+#networks:
+#    tool-node-boilerplate:
+#        driver: bridge
+#volumes:
+#    mongo-data:
+#        driver: local

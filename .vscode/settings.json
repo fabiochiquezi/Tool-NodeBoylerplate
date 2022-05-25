@@ -17,7 +17,10 @@
         "jest.config.js": true,
         ".husky": true,
         "commitlint.config.js": true,
-        "tsconfig.prod.json": true
+        "tsconfig.prod.json": true,
+        "Dockerfile": true,
+        "docker-compose.yml": true,
+        ".dockerignore": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
