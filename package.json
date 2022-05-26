@@ -6,11 +6,14 @@
   "scripts": {
     "start": "node dist/app.js",
     "build": "rimraf dist && tsc -p tsconfig.prod.json",
+
     "test": "jest --runInBand",
     "test:watch": "jest --runInBand --watch",
     "test:coverage": "jest --coverage --runInBand",
+
     "dev": "ts-node-dev src/app.ts",
     "dev2": "nodemon -L --exec ts-node src/app.ts",
+
     "down": "docker-compose down",
     "up": "yarn build && docker-compose up",
     "watch": "tsc -w",
