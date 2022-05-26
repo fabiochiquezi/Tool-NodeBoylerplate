@@ -6,23 +6,20 @@
   "scripts": {
     "start": "node dist/app.js",
     "build": "rimraf dist && tsc -p tsconfig.prod.json",
-
     "test": "jest --runInBand",
     "test:watch": "jest --runInBand --watch",
     "test:coverage": "jest --coverage --runInBand",
-
     "dev": "ts-node-dev src/app.ts",
     "dev2": "nodemon -L --exec ts-node src/app.ts",
-
     "down": "docker-compose down",
     "up": "yarn build && docker-compose up",
     "watch": "tsc -w",
     "debug": "nodemon -L --watch ./dist --inspect=0.0.0.0:9222 --nolazy ./dist/app.js"
   },
   "dependencies": {
-    "nodemon": "^2.0.16",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
