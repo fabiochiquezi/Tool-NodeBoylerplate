@@ -18,7 +18,6 @@
         ".husky": true,
         "commitlint.config.js": true,
         "tsconfig.prod.json": true,
-        "Dockerfile": true,
         "docker-compose.yml": true,
         ".dockerignore": true
     },
