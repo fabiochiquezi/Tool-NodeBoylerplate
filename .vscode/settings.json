@@ -20,7 +20,9 @@
         "tsconfig.prod.json": true,
         "docker-compose.yml": true,
         ".dockerignore": true,
-        ".github": true
+        ".github": true,
+        "CHANGELOG.example.md": true,
+        "CHANGELOG.md": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
