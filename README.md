@@ -39,6 +39,7 @@ The process to use it's quite simple
 1. **yarn:** install all dependencies
 2. **yarn up:** get up the Node app, Mongo and Mongo-Express
 3. **yarn down:** destroy the containers
+
 _ps: to run the app with Docker, first run 'yarn watch' and then 'yarn up'. It was designed in this way to make Docker faster as possible_
 
 ##### Test
