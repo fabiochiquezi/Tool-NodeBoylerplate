@@ -1,1 +1,2 @@
 add typescript paths
+change eslint for standard.js
