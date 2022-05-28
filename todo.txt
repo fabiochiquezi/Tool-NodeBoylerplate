@@ -1,2 +1,3 @@
 add typescript paths
 change eslint for standard.js
+create .env.enxample file and add instructions at the readme
