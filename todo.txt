@@ -1,3 +1,4 @@
 add typescript paths
 change eslint for standard.js
 create .env.enxample file and add instructions at the readme
+add "- ./.env:/usr/src/app/.env" to docker-compose.yml inside of volumes at api container ( require to make .env work )
