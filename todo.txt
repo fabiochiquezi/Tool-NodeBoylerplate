@@ -4,3 +4,7 @@ create .env.enxample file and add instructions at the readme
 add "- ./.env:/usr/src/app/.env" to docker-compose.yml inside of volumes at api container ( require to make .env work )
 add colors library to the project
 add rxJS
+add base folder boilerplate
+add async handler package
+add simple middleares and make nodejs start more complete
+let a implementation todo already working
